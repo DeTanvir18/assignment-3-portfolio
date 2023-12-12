@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="mb-4 md:mb-0">
                     <h3 className="text-xl font-semibold text-[#fff] py-2 uppercase">Contact</h3>
-                    <p className="my-1">Email: tanvirahmed18.ta@gmail.com</p>
+                    <p className="my-1">Email: <span className="text-pink-800 font-bold">tanvirahmed18.ta@gmail.com</span></p>
                     <p className="my-1">Phone: +880 1********</p>
                 </div>
                 <div>

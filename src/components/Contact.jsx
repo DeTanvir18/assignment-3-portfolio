@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <div id="Contact" className="p-4 lg:p-20 flex flex-col justify-center items-center">
             <h1 className="text-[52px] font-semibold mb-10 leading-normal uppercase text-sky-700">Contact Me</h1>
-            <form onSubmit={handleContact} action="" className="flex flex-col gap-2 lg:w-1/2 text-white">
+            <form onSubmit={handleContact} method="POST" data-netlify="true" action="" className="flex flex-col gap-2 lg:w-1/2 text-white">
                 <div className="lg:flex gap-6">
                     <input className="w-full my-2 rounded-lg bg-slate-800 p-4 border-2 border-sky-400 text-xl" placeholder="Enter Your Name" type="text" required/>
                     <input className="w-full my-2 rounded-lg bg-slate-800 p-4 border-2 border-sky-400 text-xl" placeholder="Enter Your Email" type="email" required/>
