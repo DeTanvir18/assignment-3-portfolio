@@ -58,9 +58,7 @@ const Banner = () => {
                             I am a Junior MERN Stack Developer.
                         </h2>
                         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                            I am a full-stack developer specializing in building (and occasionally
-                            designing) exceptional digital experiences. Currently, I am focused on
-                            building responsive full-stack web applications.
+                        I am a junior MERN stack developer on a mission to become a senior developer in the coming years and to explore creating interactive web experiences.
                         </p>
                         <div>
                             <Link to="Projects">
