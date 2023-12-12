@@ -9,13 +9,15 @@ import Services from "./components/Services";
 
 const App = () => {
   return (
-    <div className="bg-slate-800">
+    <div>
       <Navbar></Navbar>
-      <Banner></Banner>
-      <About></About>
-      <Services></Services>
-      <Projects></Projects>
-      <Contact></Contact>
+        <Banner></Banner>
+      <div className="max-w-5xl mx-auto">
+        <About></About>
+        <Services></Services>
+        <Projects></Projects>
+        <Contact></Contact>
+      </div>
       <Footer></Footer>
     </div>
   );
