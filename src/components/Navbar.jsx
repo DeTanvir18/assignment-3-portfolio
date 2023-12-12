@@ -61,7 +61,7 @@ const Navbar = () => {
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
                 <ul>
-                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-[#2c3690]'>
+                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-purple-700'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href={resume}
@@ -79,7 +79,7 @@ const Navbar = () => {
                             <FaGithub size={20} /> Github
                         </a>
                     </li>
-                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-sky-500'>
+                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-[#0866ff]'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://www.facebook.com/tanvirahmed.tanu.3'

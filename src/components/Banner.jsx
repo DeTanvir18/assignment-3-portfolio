@@ -19,33 +19,6 @@ const Banner = () => {
 
     return (
         <div className="bg-[#2c6c9d] py-60">
-            {/* <div className="lg:px-20 px-10 lg:py-0 py-10 lg:text-start text-center gap-5 flex lg:flex-row flex-col-reverse justify-between items-center lg:gap-12">
-                <div className="h-full lg:py-40 flex flex-col justify-center items-center lg:items-start  ">
-                    <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal">Welcome to <span className="text-fuchsia-500">My Website</span></h1>
-                    <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laborum exercitationem, distinctio sint sit ducimus perferendis aspernatur ea cupiditate fuga.</p>
-
-                    <div className="flex mt-8 gap-2">
-                        <div className="flex justify-center items-center">
-                            <div className="flex space-x-2">
-                                <a href="" className="text-fuchsia-500 hover:text-fuchsia-600 rounded-full glow p-2">
-                                    <AiFillGithub className="text-[28px]" />
-                                </a>
-                                <a href="" className="text-fuchsia-500 hover:text-fuchsia-600 rounded-full glow p-2">
-                                    <FaLinkedinIn className="text-[28px]" />
-                                </a>
-                                <a href="" className="text-fuchsia-500 hover:text-fuchsia-600 rounded-full glow p-2">
-                                    <FaTwitter className="text-[28px]" />
-                                </a>
-                                <a href="" className="text-fuchsia-500 hover:text-fuchsia-600 rounded-full glow p-2">
-                                    <FaInstagram className="text-[28px]" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <img data-aos="fade-up" src="https://i.ibb.co/jMcxJqX/Tanvir.jpg" alt="" className="h-72 w-72 rounded-full p-1 border border-fuchsia-500 img_glow" />
-            </div> */}
             <div data-aos="fade-up" name='home' className='w-full'>
                 {/* Container */}
                 <div className='max-w-[1000px] mx-auto px-8 flex flex-col-reverse lg:flex-row justify-center h-full'>
@@ -58,12 +31,12 @@ const Banner = () => {
                             I am a Junior MERN Stack Developer.
                         </h2>
                         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                        I am a junior MERN stack developer on a mission to become a senior developer in the coming years and to explore creating interactive web experiences.
+                        I am on a mission to become a senior developer in the coming years and to explore creating interactive web experiences.
                         </p>
                         <div>
                             <Link to="Projects">
                                 <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#1097a3]'>
-                                    View Work
+                                    Projects
                                     <span className='group-hover:rotate-90 duration-300'>
                                         <FaArrowAltCircleRight className='ml-3' />
                                     </span>
