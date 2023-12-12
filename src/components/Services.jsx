@@ -2,7 +2,7 @@
 const Services = () => {
     return (
         <div data-aos="fade-down" id="Services" className="p-20 flex flex-col justify-center items-center">
-            <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-sky-700">Services</h1>
+            <h1 className="text-5xl font-semibold mb-20 leading-normal uppercase text-sky-700">Services</h1>
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
                 <div className="flex flex-col items-center justify-center gap-2 h-24 w-20 hover:scale-110 duration-500">
                   <img src="https://i.ibb.co/FmDQQpx/html.png" alt="" /> 

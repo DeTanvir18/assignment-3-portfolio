@@ -3,6 +3,7 @@ import { FaArrowAltCircleRight, FaInstagram, FaLinkedinIn, FaTwitter } from "rea
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 
 
@@ -11,7 +12,7 @@ const Banner = () => {
         AOS.init({
             easing: 'ease-out-quart',
             delay: 0,
-            duration: 550,
+            duration: 750,
         })
     }, [])
 
@@ -47,26 +48,34 @@ const Banner = () => {
             </div> */}
             <div data-aos="fade-up" name='home' className='w-full'>
                 {/* Container */}
-                <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-                    <p className='text-fuchsia-600 text-xl font-bold'>I am</p>
-                    <h1 className='text-4xl sm:text-5xl font-bold text-white'>
-                        Tanvir Ahmed
-                    </h1>
-                    <h2 className='text-2xl sm:text-3xl font-bold text-fuchsia-600'>
-                        I am a Junior MERN Stack Developer.
-                    </h2>
-                    <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                        I am a full-stack developer specializing in building (and occasionally
-                        designing) exceptional digital experiences. Currently, I’m focused on
-                        building responsive full-stack web applications.
-                    </p>
+                <div className='max-w-[1000px] mx-auto px-8 flex flex-col-reverse lg:flex-row justify-center h-full'>
                     <div>
-                        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600'>
-                            View Work
-                            <span className='group-hover:rotate-90 duration-300'>
-                                <FaArrowAltCircleRight className='ml-3' />
-                            </span>
-                        </button>
+                        <p className='text-[#39a4ad] text-xl font-bold'>I am</p>
+                        <h1 className='text-4xl sm:text-5xl font-bold text-white'>
+                            Tanvir Ahmed
+                        </h1>
+                        <h2 className='text-2xl sm:text-3xl font-bold text-[#1097a3]'>
+                            I am a Junior MERN Stack Developer.
+                        </h2>
+                        <p className='text-[#8892b0] py-4 max-w-[700px]'>
+                            I am a full-stack developer specializing in building (and occasionally
+                            designing) exceptional digital experiences. Currently, I am focused on
+                            building responsive full-stack web applications.
+                        </p>
+                        <div>
+                            <Link to="Projects">
+                                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#1097a3]'>
+                                    View Work
+                                    <span className='group-hover:rotate-90 duration-300'>
+                                        <FaArrowAltCircleRight className='ml-3' />
+                                    </span>
+                                </button>
+                            </Link>
+                        </div>
+
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/jMcxJqX/Tanvir.jpg" alt="" className="h-72 w-72 rounded-full p-1" />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -61,12 +61,13 @@ const Navbar = () => {
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
                 <ul>
-                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-sky-500'>
+                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-[#2c3690]'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
+                            href={resume}
+                            download="Resume"
                         >
-                           <FaLinkedin size={20} /> LinkedIN
+                            <BsFillPersonLinesFill size={20} /> Resume
                         </a>
                     </li>
                     <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-[#252222]'>
@@ -75,7 +76,16 @@ const Navbar = () => {
                             href='https://github.com/DeTanvir18'
                             target="blank"
                         >
-                           <FaGithub size={20} /> Github
+                            <FaGithub size={20} /> Github
+                        </a>
+                    </li>
+                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-sky-500'>
+                        <a
+                            className='flex justify-between items-center w-full text-gray-300'
+                            href='https://www.facebook.com/tanvirahmed.tanu.3'
+                            target="blank"
+                        >
+                            <FaFacebook size={20} /> Facebook
                         </a>
                     </li>
                     <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-[#ca41cd]'>
@@ -86,13 +96,12 @@ const Navbar = () => {
                             <HiOutlineMail size={20} /> Email
                         </a>
                     </li>
-                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-[#565f69]'>
+                    <li className='w-[100px] h-[40px] px-2 flex justify-between items-center mr-[-70px] hover:mr-[-2px] duration-300 bg-sky-500'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href={resume} 
-                            download="Resume"
+                            href='/'
                         >
-                            <BsFillPersonLinesFill size={20} /> Resume
+                            <FaLinkedin size={20} /> LinkedIN
                         </a>
                     </li>
                 </ul>

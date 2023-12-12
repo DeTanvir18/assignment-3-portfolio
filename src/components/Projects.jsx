@@ -6,8 +6,8 @@ const Projects = () => {
         <div id="Projects" className='w-full'>
             <div className='max-w-[1000px] mx-auto py-24 p-4 flex flex-col justify-center w-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Projects</p>
-                    <p className='py-6'>Some of My Recent Projects</p>
+                    <p className='text-5xl font-bold border-b-4 text-sky-700'>Projects</p>
+                    <p className='py-6 text-[#1097a3] text-xl font-semibold'>Have a look at some of My Recent Projects</p>
                 </div>
 
                 {/* container for projects */}

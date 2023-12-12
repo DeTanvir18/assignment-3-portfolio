@@ -12,8 +12,8 @@ const App = () => {
     <div>
       <Navbar></Navbar>
         <Banner></Banner>
-      <div className="max-w-5xl mx-auto">
         <About></About>
+      <div className="max-w-5xl mx-auto">
         <Services></Services>
         <Projects></Projects>
         <Contact></Contact>
